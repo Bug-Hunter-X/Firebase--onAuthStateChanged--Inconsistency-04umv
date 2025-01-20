@@ -1,0 +1,1 @@
+The Firebase SDK's `onAuthStateChanged` listener might not trigger consistently if the network connection is unstable or if there's a race condition with other authentication operations.  This can lead to unexpected behavior where the application doesn't reflect the current authentication state accurately.
